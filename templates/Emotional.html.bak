@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Factors affecting children Behavioural and Mental Health</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+	<link href="{{ url_for('static', filename='lib/flaticon/font/flaticon.css') }}" rel='stylesheet' type='text/css' />
+
+    <!-- Libraries Stylesheet -->
+    <link href="{{ url_for('static', filename='lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet" type='text/css' />
+    <link href="{{ url_for('static', filename='lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet" type='text/css' />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{ url_for('static', filename= 'css/style.css')}}" rel="stylesheet" type='text/css' />
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
+                <i class="flaticon-043-teddy-bear"></i>
+                <span class="text-primary">Behaviour and Mental Health</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+        <div class="row align-items-center px-3">
+            <div class="col-lg-6 text-center text-lg-left">
+                <div class='title'>
+      <h2 style="color:white;text-align:center;">Emotional Difficulty Prediction</h2>
+      </div>
+ <!-- method="post" -->
+    <div class ='form'>
+      <form class="" action="/Emotional" method="post">
+        <label style="text-align:center;"  class="form-label" for="GoingToSchool">Are you still going to school?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'GoingToSchool' class="form-check-input" type="checkbox" value="2">
+          <label class="form-check-label" for="GoingToSchool">Yes,Most of the Days</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'GoingToSchool' class="form-check-input" type="checkbox" value="1">
+          <label class="form-check-label" for="GoingToSchool">Yes,Sometimes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'GoingToSchool' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="GoingToSchool">No</label>
+        </div>
+
+        <br>
+        <br>
+
+        <label style="text-align:center;" class="form-label" for="AnotherChildHome">Do you have any other children living in your house with you?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'AnotherChildHome' class="form-check-input" type="checkbox" value="1">
+          <label class="form-check-label" for="AnotherChildHome">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'AnotherChildHome' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="AnotherChildHome">No</label>
+        </div>
+        <br>
+
+        <label style="text-align:left;" class="form-label" for="SportsDaysInWeek">In the last 7 days,How many days did you do sports or exercise for at least 1 hour.</label>
+        <input name = 'SportsDaysInWeek' class="form-control" type="number" placeholder="Type Here" required>
+        <br>
+
+        <label style="text-align:center;" class="form-label" for="EnoughPlayTime">Do you have enough time for play?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="3" >
+          <label class="form-check-label" for="EnoughPlayTime">Yes, it's just about enough</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="2">
+          <label class="form-check-label" for="EnoughPlayTime">Yes, I have loads</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="1">
+          <label class="form-check-label" for="EnoughPlayTime">No, I would like to have a bit more</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="EnoughPlayTime">No, I need a lot more</label>
+        </div>
+        <br>
+        <br>
+
+        <label style="text-align:center;" class="form-label" for="RelaxSpace">Do you have somewhere at home where you have space to relax?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'RelaxSpace' class="form-check-input" type="checkbox" value="2">
+          <label class="form-check-label" for="RelaxSpace">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'RelaxSpace' class="form-check-input" type="checkbox" value="1">
+          <label class="form-check-label" for="RelaxSpace">Sometimes but not all the time</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'RelaxSpace' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="RelaxSpace">No</label>
+        </div>
+        <br>
+        <br>
+
+        <label style="text-align:center;" class="form-label" for="SchoolWork">I am doing well with my school work(Agree or Disagree)</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'SchoolWork' class="form-check-input" type="checkbox" value="4" >
+          <label class="form-check-label" for="SchoolWork">Strongly Agree</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'SchoolWork' class="form-check-input" type="checkbox"  value="3">
+          <label class="form-check-label" for="SchoolWork">Agree</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'SchoolWork' class="form-check-input" type="checkbox" value="2">
+          <label class="form-check-label" for="SchoolWork">Neutral Opinion</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'SchoolWork' class="form-check-input" type="checkbox"  value="1">
+          <label class="form-check-label" for="SchoolWork">Disagree</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'SchoolWork' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="SchoolWork">Strongly Disagree</label>
+        </div>
+        <br>
+        <br>
+
+        <label style="text-align:center;" class="form-label" for="ImGoodAtThings">There are lots of things I'm good at(Agree or Disagree)</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'ImGoodAtThings' class="form-check-input" type="checkbox" value="4" >
+          <label class="form-check-label" for="ImGoodAtThings">Strongly Agree</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'ImGoodAtThings' class="form-check-input" type="checkbox"  value="3">
+          <label class="form-check-label" for="ImGoodAtThings">Agree</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'ImGoodAtThings' class="form-check-input" type="checkbox" value="2">
+          <label class="form-check-label" for="ImGoodAtThings">Neutral Opinion</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'ImGoodAtThings' class="form-check-input" type="checkbox"  value="1">
+          <label class="form-check-label" for="ImGoodAtThings">Disagree</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'ImGoodAtThings' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="ImGoodAtThings">Strongly Disagree</label>
+        </div>
+        <br>
+        <br>
+        <label style="text-align:left;" class="form-label" for="Health">Your Health(Rate from 1-10)</label>
+        <input name = 'Health' class="form-control" type="number" placeholder="Type Here" required>
+        <br>
+        <label style="text-align:left;" class="form-label" for="School">Your School(Rate from 1-10)</label>
+        <input name = 'School' class="form-control" type="number" placeholder="Type Here" required>
+        <br>
+
+        <label style="text-align:center;" class="form-label" for="InTouchWithFamily">Are you able to keep in touch with your family that you don't live with?</label>
+        <br>
+        <div class="form-check form-check-inline">
+          <input name = 'InTouchWithFamily' class="form-check-input" type="checkbox" value="1" >
+          <label class="form-check-label" for="InTouchWithFamily">Yes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input name = 'InTouchWithFamily' class="form-check-input" type="checkbox" value="0">
+          <label class="form-check-label" for="InTouchWithFamily">No</label>
+        </div>
+        <br>
+        <br>
+
+        <div class="d-grid gap-2">
+          <input type="submit" name="Predict" value="Predict" />
+        </div><br>
+        <div class="output">
+		<body>
+		<font size="6"
+          face="verdana"
+          color="white">
+            <strong> {{output}} </strong>
+        </font>
+          
+        </div>
+
+
+      </form>
+    </div><br><br><br><br><br>
+
+    <!-- Header End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='lib/easing/easing.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='lib/isotope/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='lib/lightbox/js/lightbox.min.js')}}"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="{{ url_for('static', filename='mail/jqBootstrapValidation.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='mail/contact.js')}}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{{ url_for('static', filename='js/main.js')}}"></script>
+</body>
+
+</html>

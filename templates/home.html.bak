@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Factors affecting children Behavioural and Mental Health</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+	<link href="{{ url_for('static', filename='lib/flaticon/font/flaticon.css') }}" rel='stylesheet' type='text/css' />
+
+    <!-- Libraries Stylesheet -->
+    <link href="{{ url_for('static', filename='lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet" type='text/css' />
+    <link href="{{ url_for('static', filename='lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet" type='text/css' />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{ url_for('static', filename= 'css/style.css')}}" rel="stylesheet" type='text/css' />
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="" class="navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
+                <i class="flaticon-043-teddy-bear"></i>
+                <span class="text-primary">Behaviour and Mental Health</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+        <div class="row align-items-center px-3">
+            <div class="col-lg-6 text-center text-lg-left">
+                <h4 class="text-white mb-4 mt-5 mt-lg-0">Innodatatics Kids Center</h4>
+                <h1 class="display-3 font-weight-bold text-white">New Approach to Kids Education</h1>
+
+
+		<div class ='form'>
+     		 <form class="" action= "/id" method="post">
+            	 <label style="text-align:center;"  class="form-label" for="Diff_Type">Choose Type of Difficulty</label>
+            	 <br>
+            	 <div class="form-check form-check-inline">
+              	<input name = 'Diff_Type' class="form-check-input" type="checkbox" value="0">
+              	<label class="form-check-label" for="Diff_Type">Emotional Difficulty</label>
+            	</div>
+            	<div class="form-check form-check-inline">
+              	<input name = 'Diff_Type' class="form-check-input" type="checkbox" value="1">
+              	<label class="form-check-label" for="Diff_Type">Behavioural Difficulty</label>
+            	</div>
+		
+            <div class="d-grid gap-2"> <br>
+              <input type="submit" name="submit" value="Submit" /> 
+            </div><br>
+
+      </form>
+    </div>
+
+            </div>
+
+
+            <div class="col-lg-6 text-center text-lg-right">
+                <img class="img-fluid mt-5" src="{{ url_for('static', filename='img/header.png')}}" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='lib/easing/easing.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='lib/isotope/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='lib/lightbox/js/lightbox.min.js')}}"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="{{ url_for('static', mail/jqBootstrapValidation.min.js)}}"></script>
+    <script src="{{ url_for('static', mail/contact.js)}}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{{ url_for('static', js/main.js)}}"></script>
+</body>
+
+</html>
