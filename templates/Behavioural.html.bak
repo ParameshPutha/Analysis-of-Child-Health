@@ -57,125 +57,125 @@
  <!-- method="post" -->
     <div class ='form'>
       <form class="" action="/Behavioural" method="post">
-        <label style="text-align:center;"  class="form-label" for="GoingToSchool">Are you still going to school?</label>
+        <label style="color:white;text-align:center;"  class="form-label" for="GoingToSchool">Are you still going to school?</label>
         <br>
         <div class="form-check form-check-inline">
           <input name = 'GoingToSchool' class="form-check-input" type="checkbox" value="2">
-          <label class="form-check-label" for="GoingToSchool">Yes,Most of the Days</label>
+          <label style="color" class="form-check-label" for="GoingToSchool">Yes,Most of the Days</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'GoingToSchool' class="form-check-input" type="checkbox" value="1">
-          <label class="form-check-label" for="GoingToSchool">Yes,Sometimes</label>
+          <label style="color" class="form-check-label" for="GoingToSchool">Yes,Sometimes</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'GoingToSchool' class="form-check-input" type="checkbox" value="0">
-          <label class="form-check-label" for="GoingToSchool">No</label>
+          <label style="color" class="form-check-label" for="GoingToSchool">No</label>
         </div>
 
         <br>
         <br>
 
-        <label style="text-align:center;" class="form-label" for="age">Enter Age of Student</label>
+        <label style="color:white;text-align:center;" class="form-label" for="age">Enter Age of Student</label>
         <input name = 'age' class="form-control" type="number"  placeholder="Type Here" required>
         <br>
 
-        <label style="text-align:left;" class="form-label" for="SportsDaysInWeek">In the last 7 days,How many days did you do sports or exercise for at least 1 hour.</label>
+        <label style="color:white;text-align:left;" class="form-label" for="SportsDaysInWeek">In the last 7 days,How many days did you do sports or exercise for at least 1 hour.</label>
         <input name = 'SportsDaysInWeek' class="form-control" type="number" placeholder="Type Here" required>
         <br>
 
-        <label style="text-align:left;" class="form-label" for="ConcentraionDays">In the last 7 days,How many days did you feel like you could concentrate well on your school work?</label>
+        <label style="color:white;text-align:left;" class="form-label" for="ConcentraionDays">In the last 7 days,How many days did you feel like you could concentrate well on your school work?</label>
         <input name = 'ConcentraionDays' class="form-control" type="number"  placeholder="Type Here" required>
         <br>
 
-        <label style="text-align:center;" class="form-label" for="EnoughPlayTime">Do you have enough time for play?</label>
+        <label style="color:white;text-align:center;" class="form-label" for="EnoughPlayTime">Do you have enough time for play?</label>
         <br>
         <div class="form-check form-check-inline">
           <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="3" >
-          <label class="form-check-label" for="EnoughPlayTime">Yes, it's just about enough</label>
+          <label style="color" class="form-check-label" for="EnoughPlayTime">Yes, it's just about enough</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="2">
-          <label class="form-check-label" for="EnoughPlayTime">Yes, I have loads</label>
+          <label style="color" class="form-check-label" for="EnoughPlayTime">Yes, I have loads</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="1">
-          <label class="form-check-label" for="EnoughPlayTime">No, I would like to have a bit more</label>
+          <label style="color" class="form-check-label" for="EnoughPlayTime">No, I would like to have a bit more</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'EnoughPlayTime' class="form-check-input" type="checkbox" value="0">
-          <label class="form-check-label" for="EnoughPlayTime">No, I need a lot more</label>
+          <label style="color" class="form-check-label" for="EnoughPlayTime">No, I need a lot more</label>
         </div>
         <br>
         <br>
 
-        <label style="text-align:center;" class="form-label" for="RelaxSpace">Do you have somewhere at home where you have space to relax?</label>
+        <label style="color:white;text-align:center;" class="form-label" for="RelaxSpace">Do you have somewhere at home where you have space to relax?</label>
         <br>
         <div class="form-check form-check-inline">
           <input name = 'RelaxSpace' class="form-check-input" type="checkbox" value="2">
-          <label class="form-check-label" for="RelaxSpace">Yes</label>
+          <label style="color" class="form-check-label" for="RelaxSpace">Yes</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'RelaxSpace' class="form-check-input" type="checkbox" value="1">
-          <label class="form-check-label" for="RelaxSpace">Sometimes but not all the time</label>
+          <label style="color" class="form-check-label" for="RelaxSpace">Sometimes but not all the time</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'RelaxSpace' class="form-check-input" type="checkbox" value="0">
-          <label class="form-check-label" for="RelaxSpace">No</label>
+          <label style="color" class="form-check-label" for="RelaxSpace">No</label>
         </div>
         <br>
         <br>
 
-        <label style="text-align:center;" class="form-label" for="SchoolWork">I am doing well with my school work(Agree or Disagree)</label>
+        <label style="color:white;text-align:center;" class="form-label" for="SchoolWork">I am doing well with my school work(Agree or Disagree)</label>
         <br>
         <div class="form-check form-check-inline">
           <input name = 'SchoolWork' class="form-check-input" type="checkbox" value="4" >
-          <label class="form-check-label" for="SchoolWork">Strongly Agree</label>
+          <label style="color" class="form-check-label" for="SchoolWork">Strongly Agree</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'SchoolWork' class="form-check-input" type="checkbox"  value="3">
-          <label class="form-check-label" for="SchoolWork">Agree</label>
+          <label style="color" class="form-check-label" for="SchoolWork">Agree</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'SchoolWork' class="form-check-input" type="checkbox" value="2">
-          <label class="form-check-label" for="SchoolWork">Neutral Opinion</label>
+          <label style="color" class="form-check-label" for="SchoolWork">Neutral Opinion</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'SchoolWork' class="form-check-input" type="checkbox"  value="1">
-          <label class="form-check-label" for="SchoolWork">Disagree</label>
+          <label style="color" class="form-check-label" for="SchoolWork">Disagree</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'SchoolWork' class="form-check-input" type="checkbox" value="0">
-          <label class="form-check-label" for="SchoolWork">Strongly Disagree</label>
+          <label style="color" class="form-check-label" for="SchoolWork">Strongly Disagree</label>
         </div>
         <br>
         <br>
 
-        <label style="text-align:center;" class="form-label" for="InTouchWithFamily">Are you able to keep in touch with your family that you don't live with?</label>
+        <label style="color:white;text-align:center;" class="form-label" for="InTouchWithFamily">Are you able to keep in touch with your family that you don't live with?</label>
         <br>
         <div class="form-check form-check-inline">
           <input name = 'InTouchWithFamily' class="form-check-input" type="checkbox" value="1" >
-          <label class="form-check-label" for="InTouchWithFamily">Yes</label>
+          <label style="color" class="form-check-label" for="InTouchWithFamily">Yes</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'InTouchWithFamily' class="form-check-input" type="checkbox" value="0">
-          <label class="form-check-label" for="InTouchWithFamily">No</label>
+          <label style="color" class="form-check-label" for="InTouchWithFamily">No</label>
         </div>
         <br>
         <br>
-        <label style="text-align:center;" class="form-label" for="IntouchWithFriends">Are you able to keep in touch with your friends?</label>
+        <label style="color:white;text-align:center;" class="form-label" for="IntouchWithFriends">Are you able to keep in touch with your friends?</label>
         <br>
         <div class="form-check form-check-inline">
           <input name = 'IntouchWithFriends' class="form-check-input" type="checkbox" value="1" >
-          <label class="form-check-label" for="IntouchWithFriends">Yes</label>
+          <label style="color" class="form-check-label" for="IntouchWithFriends">Yes</label>
         </div>
         <div class="form-check form-check-inline">
           <input name = 'IntouchWithFriends' class="form-check-input" type="checkbox" value="0">
-          <label class="form-check-label" for="IntouchWithFriends">No</label>
+          <label style="color" class="form-check-label" for="IntouchWithFriends">No</label>
         </div>
         <br>
         <br>
 
-        <label style="text-align:center;" class="form-label" for="sleeptime">Enter Sleep Time</label>
+        <label style="color:white;text-align:center;" class="form-label" for="sleeptime">Enter Sleep Time</label>
         <input name = 'sleeptime' class="form-control" type="number" placeholder="Type Here" ><br>
 
         <div class="d-grid gap-2">
@@ -183,7 +183,14 @@
 	  <input type="submit" name="Predict" value="Predict" /> 
         </div><br>
         <div class="output">
-          {{output}}
+          
+		  <body>
+		<font size="6"
+          face="verdana"
+          color="white">
+            <strong> {{output}} </strong>
+        </font>
+        </body>
         </div>
 	
 	 </form>
